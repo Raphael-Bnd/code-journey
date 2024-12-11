@@ -1,2 +1,2 @@
-# study-code
-Code and projects developed throughout my Computer Science degree.
+# code-journey
+Code and projects developed throughout my Computer Science degree (and other stuff).
