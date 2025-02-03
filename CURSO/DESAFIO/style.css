@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    text-transform:none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: #FFFCFC;
+    font-family: 'Josefin Sans';
+    box-sizing: border-box;
+}
+
+img{
+    position: relative;
+    display: inline-block;
+    width: 650px;
+    left: 200px;
+    top: 160px;
+}
+
+section{
+    display: inline-block;
+    max-width: 700px;
+    font-size: 23px;
+    font-style: normal;
+    position: relative;
+    left: 370px;
+    top: -70px;
+}
+
+h1{
+    position: relative;
+    font-size: 80px;
+    font-weight: bolder;
+    text-shadow: 0px 2px 5px #00000024;
+    color: #1b1754;
+    top: 25px;
+}
+
+p{
+    position: relative;
+    max-width: 620px;
+    margin-top: 65px;
+    font-weight: 450;
+    line-height: 30px;
+    color: #1b1754;
+    top: 25px;
+}
+
+.more {
+    color: #E09F3E;
+    position: absolute;
+    font-size: 20px;
+    display: flex;
+    left: 1025px;
+    bottom: 220px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+header{
+    position: absolute;
+    font-size: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    display:flex;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+header li{
+    display: inline-block;
+    margin: 0 0 0 15px;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-right: 30px;
+}
+
+.Sign{
+    color: #ffffff;
+    background-color:#E09F3E;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    display:inline-block;
+    cursor: pointer;
+    font-weight: 900;
+    transition: all 0.3s ease;
+}

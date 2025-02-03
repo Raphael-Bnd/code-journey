@@ -1,0 +1,32 @@
+/* 
+    CSS
+    =>Folha de estilo em cascata
+
+*/
+
+/* 
+RGB:
+    RED
+    GREEN
+    BLUE
+
+HEX:
+    #003049
+    #fdf0d5
+    #669bbc
+*/
+
+
+/* 
+    UNIDADES DE MEDIDAS
+        px (pixels)
+        in (inches/polegadas)
+        cm / mm (centímetro/milímetro)
+
+    -> RELATIVAS
+        % calcula o tamanho relativo ao elemento pai
+        vw (view width) 1vw é 1% da largura da janela do navegador
+        vh (view height) 1vh é 1% da altura da janela do navegador
+        em é uma unidade relativa ao elemento pai
+        rem é uma unidade relativa ao elemento raiz
+*/

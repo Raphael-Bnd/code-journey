@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+.woman{
+    position: relative;
+    width: 60%;
+    display: inline-block;
+    left: 80vh;
+    top: 2vh;
+    z-index: 900;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #252422;
+}
+
+nav{
+max-width: 75rem;
+margin: auto;
+padding: 3.2vh 5rem;
+display: flex;
+align-items:center;
+justify-content: space-between;
+gap: 5rem;
+position: relative;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.link a{
+    position: relative;
+    padding-bottom: 0.75rem;
+    color: #FFFCF2;
+}
+
+.link{
+    position: relative;
+    padding-bottom: 0.75rem;
+    color: #FFFCF2;
+}
+
+.link a::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #EB5E28;
+    transition: all 0.3s ease;
+}
+
+.link a:hover::after{
+    width: 70%;
+}
+
+.btn{
+    position: relative;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #FFFCF2;
+    background-color: #EB5E28;
+    border-radius: 3.2vh;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.btn:hover, .btn2:hover{
+    background-color: #ab461e;
+}
+
+h1{
+    text-transform:capitalize;
+    font-weight: 900;
+    font-size: 4vw;
+    line-height: 122px;
+    color: #FFFCF2;
+}
+
+h2{
+    text-transform: capitalize;
+    font-weight:500;
+    font-size:2vw;
+    line-height: 71px;
+    color: #FFFCF2;
+}
+
+p{
+    text-align: justify;
+    width: 515px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color:#CCC5B9;
+}
+
+span{
+    font-weight:bolder;
+    font-style: oblique;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #CCC5B9;
+}
+
+header{
+    position: relative;
+    display: inline-block;
+    left: 400px;
+    bottom: 126vh;
+}
+
+.btn2{
+    position: relative;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #FFFCF2;
+    background-color: #EB5E28;
+    border-radius: 3.2vh;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    top: 30px;
+}
+
+.element{
+    width: 60%;
+    position: relative;
+    display:flex;
+    z-index: 1;
+    left:710px;
+    bottom: 610px;
+}

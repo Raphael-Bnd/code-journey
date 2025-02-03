@@ -1,0 +1,73 @@
+/* ESTILO DA FONTE PODE SER IMPORTADO DIRETO PRO CSS!!!
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap'); */
+.box {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bolder;
+    width: 100%;
+    height: 70px;
+    background: #0281ff;
+    text-align: center;
+    line-height: 60px;
+    margin: 1px;/*COMO O PROPRIO NOME DIZ, É UMA MARGEM/ESPAÇAMENTO*/
+    padding: 5px; /*AUMENTAR RESPECTIVAMENTE TODOS OS LADOS DA BOX*/
+}
+
+#titulo, p{
+    font-family: "Lora", serif;
+    color: rgb(0, 89, 255);
+    background: rgba(238, 238, 238, 0.177);
+}
+
+#texto {
+    color: rgb(61, 13, 194);
+    font-family: "Lora", serif; /*FONTE DO GOOGLE*/
+    font-size: 20px; /*TAMANHO DO TEXTO*/
+    font-style:italic;/*Italic, oblique*/
+    font-weight: lighter; /*bold, bolder, normal, lighter*/
+    line-height: 25px; /*ESPAÇAMENTO DAS LINHAS*/
+    letter-spacing: 0px; /*ESPAÇAMENTO DAS LETRAS*/
+    word-spacing: 2px; /*ESPAÇAMENTO DAS PALAVRAS*/
+    text-align:justify; /*ALINHAMENTO DO TEXTO, Left, Center, Right, Justify*/
+    text-transform: capitalize; /*uppercase, lowercase, captalize*/
+    text-decoration:none; /*underlina, overline, line-through*/
+    text-shadow: 1px 1px 1px #02c8ff; /*POSIÇÃO(X), DISTANCIA(Y), ESFUMAÇADO, COR*/
+    background-color:rgba(0, 0, 255, 0.020) ;
+}
+
+.botao, .botao-bravo  {
+    background: rgb(30, 115, 219);
+    color: white;
+    border-color: rgb(255, 255, 255);
+}
+
+h1 {
+    color:black;
+}
+
+* {
+    box-sizing: border-box; /*FAZ COM QUE AO INVES DO SOMAR ELE ATRIU AO VALOR TOTAL DE CADA ITEM*/
+    background: aliceblue;
+}
+
+.box-2 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bolder;
+    width: 100%;
+    height: 70px;
+    background: #0281ff;
+    text-align: center;
+    line-height: 50px;
+    padding: 5px;
+    border: 5px solid #56aaff; /*BORDA: dashed, solid*/
+    margin-top: 350px; /* EX: 10px 10px 10px 10px
+                             TOP RIGHT BOTTOM LEFT 
+                          CASO TENHA SOMENTE 3 VALORES 
+                          ELE LÊ O RIGHT COMO AMBOS OS 
+                          LADOS, OU SEJA, RIGHT E LEFT 
+                          - 2 VALORES A MESMA COISA, 
+                          TOP BOTTOM E RIGHT LEFT*/
+}
