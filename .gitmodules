@@ -5,3 +5,6 @@
 [submodule "JavaScript"]
 	path = JavaScript
 	url = https://github.com/Raphael-Bnd/JavaScript.git
+[submodule "Curso-DevClub"]
+	path = Curso-DevClub
+	url = https://github.com/Raphael-Bnd/Curso-DevClub.git
